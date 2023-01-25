@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qHKRJdGUbQdcKYK4bvaHlXfEjnB/HoFEtEi/SMo7TjRkRHgnvTOxdO/8McvJaNcon/wCVatSTLINORG4rSdT+Q==",
+  "dgSpecHash": "+eRC4ckp6Uy25GhWzI4nBz1jWcRLOp89ISZrVRb/xn6XdcX5KpsKBeIpeYo7rt0vtTvB7Des2gj4affnIWX/DA==",
   "success": true,
   "projectFilePath": "G:\\NUEVAS TECNOLOGIAS\\SolucionVentas\\SolucionVentas\\WebApiVentas\\WebApiVentas.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\MAYRA\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\MAYRA\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "C:\\Users\\MAYRA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MAYRA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\MAYRA\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\MAYRA\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\MAYRA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

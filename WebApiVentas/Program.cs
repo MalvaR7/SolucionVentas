@@ -47,7 +47,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthorization();
 var app = builder.Build();
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 //Metodo Autorizado
 app.MapGet("/security/getMessage", () => "Hola Mundo!").RequireAuthorization();
 //Crear Token para acceder
