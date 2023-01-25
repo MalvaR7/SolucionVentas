@@ -1,0 +1,40 @@
+﻿@{
+	ViewBag.Title = "Producto";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<button onclick="GetProductos()" class="btn btn-primary">Visualizar Productos </button>
+
+<br />
+<h2>Lista de productos</h2>
+<table Id="tblProducto" class="table table-sm table-striped table-bordered m-2">
+	<thead>
+		<tr>
+			<th>Producto Id </th>
+			<th>Nombre </th>
+			<th>Precio </th>
+
+		</tr>
+	</thead>
+	<tbody>
+
+	</tbody>
+</table>
+<script type="text/javascript">
+	$(document).ready(function () {
+		
+	});
+	function GetProductos(){	
+		$.getJSON("/Productos/GetProductos", function (productos) {
+			$("#tblProducto tbody tr").remove();
+			$.map(productos, function (producto) {			
+				var newRowContent = "<tr><td>" + producto.id + "</td><td>"+producto.nombre+"</td><td>"+producto.precio+"</td></tr>";
+
+				$("#tblProducto tbody").append(newRowContent);
+
+			});
+		});
+	}
+
+</script>
