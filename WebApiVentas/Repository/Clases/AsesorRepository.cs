@@ -21,7 +21,7 @@ namespace WebApiVentas.Repository.Clases
                 context.SaveChanges();
             }
         }
-
+    
         public List<Asesor> GetAsesores()
         {
             using (var context = new AplicacionDbContext())

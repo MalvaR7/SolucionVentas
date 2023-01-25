@@ -18,7 +18,8 @@ namespace WebApiVentas.Controllers
             _asesorRepository = asesorRepository;
         }
         [HttpGet]
-        public ActionResult<List<Asesor>> Get()
+        [Route("GetAsesores")]
+        public ActionResult<List<Asesor>> GetAsesores()
         {
           return Ok(_asesorRepository.GetAsesores());
         }

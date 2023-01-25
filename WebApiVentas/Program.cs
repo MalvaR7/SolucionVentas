@@ -36,6 +36,7 @@ builder.Services.AddAuthentication(options =>
 //Incluir Repositorios
 builder.Services.AddScoped<IVentaRepository, VentaRepository>();
 builder.Services.AddScoped<IAsesorRepository, AsesorRepository>();
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 
 // Add services to the container.
 builder.Services.AddControllers();

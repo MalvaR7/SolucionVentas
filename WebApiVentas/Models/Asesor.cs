@@ -3,9 +3,9 @@
     public class Asesor
     {
         public int Id { get; set; }
-
-        public string Nombre { get; set; }
-        public string Apellido { get; set; } 
+        
+        public String Nombre { get; set; }
+        public String Apellido { get; set; } 
 
     }
 }
